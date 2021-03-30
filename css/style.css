@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap");
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  color: #fafafa;
+}
+
+nav {
+  background: #222021;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 19px 60px;
+}
+
+nav img {
+  width: 237px;
+  height: 15px;
+}
+
+h1 {
+  font-family: "kanit";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h2 {
+  font-family: "kanit";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: "Kanit";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+a {
+  font-family: "Kanit";
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #e52b50;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p.thin {
+  font-weight: 300;
+}
+
+p.bold {
+  font-weight: 700;
+}
+
+p + p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  color: #fafafa;
+  background: #222021;
+}
+
+footer a {
+  color: #fafafa;
+}
+
+footer p {
+  margin-bottom: 40px;
+}
+
+footer .links li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer .links li + li {
+  border-left: 2px solid #fafafa;
+}
+
+.menu {
+  font-family: "kanit";
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.button-primary {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 12px;
+  border: 1px solid #222021;
+  color: #222021;
+  font-family: "kanit";
+}
+
+.button-secondary {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 12px;
+  border: 1px solid #fafafa;
+}
+
+.button-primary:hover {
+  text-decoration: none;
+  color: #fafafa !important;
+  border: 1px solid #e52b50;
+  background: #e52b50;
+}
+
+.button-secondary:hover {
+  text-decoration: none;
+  color: #fafafa !important;
+  border: 1px solid #e52b50;
+  background: #e52b50;
+}
+
+.section {
+  width: 1024px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section .button-primary {
+  margin-top: 30px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.columns-2 {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  columns: 2;
+}
+
+.columns-3 {
+  margin-top: 40px;
+  columns: 3;
+  column-gap: 40px;
+}
+
+.columns-2-70-30 {
+  display: flex;
+  width: 100%;
+}
+
+.column-70 {
+  flex-shrink: 0;
+  flex-basis: 70%;
+  margin-right: 40px;
+}
+
+.img-right {
+  text-align: center;
+}
+
+.img-left {
+  text-align: center;
+}
+
+#content {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 80px;
+  color: #fafafa;
+  background: #222021;
+}
+
+#projects-section .subtitle {
+  margin-bottom: 40px;
+}
+
+#projects-section p {
+  margin-top: 30px;
+}
+
+#projects-section a {
+  color: #e52b50;
+}
+
